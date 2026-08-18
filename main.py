@@ -106,3 +106,15 @@ print(dept_avg)
 # Drop & rename
 df = df.drop(columns=["Bonus"])
 df = df.rename(columns={"Dept": "Department"})
+
+
+import numpy as np
+import pandas as pd
+# Load data
+df = pd.read_csv("retail_store_sales.csv")
+# Display data
+print(df)
+# Check summary
+df.info()
+# Stats summary
+df.describe()
