@@ -484,7 +484,7 @@ Each project is designed to improve my understanding through hands-on implementa
 
 # 👨‍💻 Author
 
-**Uzair**
+**Uzair Ghole**
 
 Python • Data Analysis • NumPy • Pandas • Data Visualization
 
