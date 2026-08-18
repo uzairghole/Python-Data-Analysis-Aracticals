@@ -1,4 +1,4 @@
-# 📊 Python Data Analysis & Visualization Projects
+# 📊 Python Data Analysis & Visualization
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
 ![NumPy](https://img.shields.io/badge/NumPy-1.x-013243?style=for-the-badge\&logo=numpy)
