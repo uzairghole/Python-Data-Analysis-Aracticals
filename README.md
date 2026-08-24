@@ -1,4 +1,3 @@
-Bilkul. **Saare badges/image links bhi remove** kar diye. README ab clean, professional aur simple rahega.
 
 # 📊 Python Data Analysis & Visualization
 
