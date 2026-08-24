@@ -1,4 +1,4 @@
-Bilkul 👍 Aapke diye hue **Histogram + Trigonometric Functions + NumPy + Pandas + Retail Sales Data Cleaning** code ko same style mein ek proper beginner-friendly README mein organize kar sakte ho.
+
 
 # 📊 Python Data Analysis Basics
 
