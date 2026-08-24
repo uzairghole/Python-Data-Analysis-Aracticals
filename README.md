@@ -60,7 +60,7 @@ Python
 
 # 📊 Skills & Progress
 
-## 📊 Skills & Progress
+
 
 | Skill | Progress |
 |:---|:---:|
