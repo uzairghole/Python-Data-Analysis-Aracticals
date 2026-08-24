@@ -2,9 +2,7 @@
 
 # 🐍 Python Data Analysis
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/python/cpython/main/Doc/logo.png" width="90" alt="Python">
-</p>
+
 
 <h1 align="center">Python Data Analysis</h1>
 
