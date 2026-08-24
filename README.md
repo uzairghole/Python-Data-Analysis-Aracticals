@@ -670,7 +670,3 @@ seaborn
 **🐍 Python → 🔢 NumPy → 🐼 Pandas → 📊 Visualization → 🔍 Data Analysis → 🤖 ML**
 
 </p>
-
-<p align="center">
-  ⭐ If you're also learning Python Data Analysis, feel free to explore this repository.
-</p>
