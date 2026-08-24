@@ -1,13 +1,17 @@
+Aapke Python script ke mutabiq full updated `README.md` niche ready hai. Isme missing value calculations, duplicates check, column removal (`Transaction ID`), aur Seaborn dependency ko Project 07 aur Tech Stack me integrate kar diya gaya hai.
+
+```markdown
 # 📊 Python Data Analysis & Visualization
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge\&logo=python)
-![NumPy](https://img.shields.io/badge/NumPy-1.x-013243?style=for-the-badge\&logo=numpy)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=for-the-badge\&logo=pandas)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c?style=for-the-badge\&logo=matplotlib)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![NumPy](https://img.shields.io/badge/NumPy-1.x-013243?style=for-the-badge&logo=numpy)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=for-the-badge&logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557c?style=for-the-badge&logo=matplotlib)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.x-3776ab?style=for-the-badge&logo=seaborn)
 
-A collection of **Python Data Analysis, NumPy, Pandas, Data Wrangling, Exploratory Data Analysis (EDA), and Data Visualization projects** designed to build practical data analytics skills.
+A collection of **Python Data Analysis, NumPy, Pandas, Data Wrangling, Exploratory Data Analysis (EDA), Data Cleaning, and Data Visualization projects** designed to build practical data analytics skills.
 
-This repository contains beginner-to-intermediate projects using both **synthetic and real-world datasets**, with a focus on understanding data, manipulating it efficiently, and presenting meaningful insights through visualizations.
+This repository contains beginner-to-intermediate projects using both **synthetic and real-world datasets**, with a focus on understanding data, cleaning missing/duplicate values, manipulating DataFrames efficiently, and presenting meaningful insights.
 
 ---
 
@@ -20,25 +24,25 @@ The projects cover:
 * 🐍 Python programming for data analysis
 * 🔢 NumPy arrays and numerical operations
 * 🐼 Pandas Series and DataFrames
-* 🧹 Data cleaning and data wrangling
-* 📊 Data visualization with Matplotlib
+* 🧹 Data cleaning, duplicate checking, & missing-value identification
+* 📊 Data visualization with Matplotlib & Seaborn
 * 🔍 Exploratory Data Analysis (EDA)
 * 📈 Statistical summaries and aggregation
-* 📁 CSV data handling
+* 📁 CSV data loading and processing
 
 ---
 
 ## 📁 Projects Included
 
-| #  | Project                          | Description                                                                                           | Main Concepts                |
-| -- | -------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------- |
-| 01 | **Histogram Visualization**      | Generates 1,000 normally distributed exam scores and visualizes their distribution using a histogram. | NumPy, Histogram, Matplotlib |
-| 02 | **Trigonometric Plotting**       | Plots Sine and Cosine functions across a range of values.                                             | NumPy, Matplotlib            |
-| 03 | **NumPy Fundamentals**           | Demonstrates array creation, dimensions, data types, shapes, and reshaping.                           | NumPy Arrays                 |
-| 04 | **Slicing & Boolean Masking**    | Demonstrates 2D indexing, slicing, fancy indexing, and Boolean filtering.                             | Indexing, Masking            |
-| 05 | **Pandas DataFrame Essentials**  | Introduces DataFrame creation, Series selection, inspection, and descriptive statistics.              | Pandas                       |
-| 06 | **Data Wrangling & Aggregation** | Performs filtering, sorting, calculated columns, grouping, and aggregation.                           | `groupby()`, `sort_values()` |
-| 07 | **Retail Sales Exploration**     | Performs initial EDA on retail sales data loaded from a CSV file.                                     | CSV, EDA, Pandas             |
+| #  | Project                        | Description                                                                                           | Main Concepts                 |
+| -- | ------------------------------ | ----------------------------------------------------------------------------------------------------- | ----------------------------- |
+| 01 | **Histogram Visualization**    | Generates 1,000 normally distributed exam scores and visualizes their distribution using a histogram. | NumPy, Histogram, Matplotlib  |
+| 02 | **Trigonometric Plotting**     | Plots Sine and Cosine functions across a range of values.                                             | NumPy, Matplotlib             |
+| 03 | **NumPy Fundamentals**         | Demonstrates array creation, dimensions, data types, shapes, and reshaping.                           | NumPy Arrays                  |
+| 04 | **Slicing & Boolean Masking**  | Demonstrates 2D indexing, slicing, fancy indexing, and Boolean filtering.                             | Indexing, Masking             |
+| 05 | **Pandas DataFrame Essentials** | Introduces DataFrame creation, Series selection, inspection, and descriptive statistics.              | Pandas                        |
+| 06 | **Data Wrangling & Aggregation** | Performs filtering, sorting, calculated columns, grouping, and aggregation.                           | `groupby()`, `sort_values()`  |
+| 07 | **Retail Sales Cleaning & EDA**| Performs EDA, missing value calculation, duplicate checks, and column dropping on retail sales data.  | CSV, EDA, Data Cleaning, Pandas|
 
 ---
 
@@ -52,9 +56,7 @@ Generates **1,000 normally distributed exam scores** with:
 
 The project also displays a reference line representing the calculated mean.
 
-**Technologies:**
-
-`NumPy` • `Matplotlib`
+**Technologies:** `NumPy` • `Matplotlib`
 
 ---
 
@@ -63,163 +65,86 @@ The project also displays a reference line representing the calculated mean.
 Visualizes mathematical functions using NumPy and Matplotlib.
 
 ### Functions
-
 * `sin(x)`
 * `cos(x)`
-
-The graph includes:
-
-* Axis labels
-* Title
-* Legend
-* Grid
-* Multiple plotted functions
 
 ---
 
 ## 🔢 03. NumPy Fundamentals
 
-Covers the fundamentals of NumPy arrays.
-
-### Topics
-
-* Array creation
-* `zeros()`
-* `ones()`
-* `arange()`
-* `linspace()`
-* `reshape()`
-* `shape`
-* `ndim`
-* `dtype`
-* 1D and 2D arrays
-
-Example transformation:
-
-```text
-1D Array
-   ↓
-12 Elements
-   ↓
-reshape(3, 4)
-   ↓
-3 × 4 Matrix
-```
+Covers the fundamentals of NumPy arrays, transformations, shapes, and indexing.
 
 ---
 
 ## ✂️ 04. Slicing & Boolean Masking
 
-Demonstrates how to access and filter NumPy data efficiently.
-
-### Topics
-
-* Array indexing
-* Row selection
-* Column selection
-* Slicing
-* Fancy indexing
-* Boolean conditions
-* Data filtering
-
-Example:
-
-```python
-filtered = arr[arr > 50]
-```
-
-This selects values greater than `50`.
+Demonstrates how to access and filter NumPy data efficiently using boolean conditions.
 
 ---
 
 ## 🐼 05. Pandas DataFrame Essentials
 
-Introduces the core concepts of Pandas DataFrames.
-
-### Topics
-
-* Creating DataFrames
-* Creating Series
-* Selecting columns
-* Inspecting data
-* Checking dimensions
-* Data types
-* Statistical summaries
-
-Useful methods:
-
-```python
-df.shape
-df.dtypes
-df.head()
-df.tail()
-df.info()
-df.describe()
-```
+Introduces core DataFrame operations, column selection, shape checks, and descriptive statistics.
 
 ---
 
 ## 🧹 06. Data Wrangling & Aggregation
 
-Demonstrates practical data manipulation techniques.
-
-### Operations Covered
-
-* Filtering rows
-* Sorting data
-* Creating calculated columns
-* Removing columns
-* Renaming columns
-* Grouping data
-* Aggregating values
-
-Important Pandas methods:
-
-```python
-df.sort_values()
-df.groupby()
-df.drop()
-df.rename()
-df.mean()
-df.sum()
-```
+Demonstrates sorting, calculated columns, grouping (`groupby`), and aggregation methods.
 
 ---
 
-## 🛒 07. Retail Sales Exploration
+## 🛒 07. Retail Sales Exploration & Data Cleaning
 
-Performs an initial **Exploratory Data Analysis (EDA)** on retail sales data stored in a CSV file.
+Performs initial **Exploratory Data Analysis (EDA)** and **Data Cleaning** on retail sales data (`retail_store_sales.csv`).
 
 ### Workflow
 
 ```text
 CSV Dataset
      ↓
-Load Data
+Load Data (`pd.read_csv`)
      ↓
-Inspect Structure
+Inspect Structure (`info()`, `describe()`)
      ↓
-Check Data Types
+Calculate Missing Values (`isnull().mean() * 100`)
      ↓
-Descriptive Statistics
+Check Duplicates (`df.duplicated`)
      ↓
-Identify Data Quality Issues
-     ↓
-EDA
+Data Cleaning (Drop `Transaction ID`)
+
 ```
 
-### Main Pandas Commands
+### Script Execution & Code Snippet
 
 ```python
+import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
 
+# Read Dataset
 df = pd.read_csv("retail_store_sales.csv")
 
-df.head()
-df.info()
-df.describe()
-df.shape
-df.dtypes
+# Basic Inspections
+print(df)
+print(df.info())
+print(df.describe())
+
+# Missing Values Analysis
+print(df.isnull().mean())
+print(df.isnull().mean() * 100)
+
+# Check Duplicates
+print(df[df.duplicated()])
+df1 = df
+
+# Data Cleaning (Dropping unnecessary identifier column)
+print(df1.head(15))
+df2 = df1.drop(columns=["Transaction ID"])
+print(df2.head(15))
+
 ```
 
 ---
@@ -232,71 +157,13 @@ df.dtypes
 
 ### Libraries
 
-| Library       | Purpose                                    |
-| ------------- | ------------------------------------------ |
-| 🔢 NumPy      | Numerical computing and array manipulation |
-| 🐼 Pandas     | Data analysis and data manipulation        |
-| 📊 Matplotlib | Data visualization                         |
-
-### Development Environments
-
-* Anaconda Spyder
-* VS Code
-* Jupyter Notebook
-
----
-
-# 💡 Key Concepts Covered
-
-## 🔢 NumPy
-
-* Array creation
-* Array dimensions
-* `shape`
-* `ndim`
-* `dtype`
-* Reshaping
-* Slicing
-* Fancy indexing
-* Boolean masking
-* Mathematical operations
-* Random data generation
-
-## 🐼 Pandas
-
-* Series
-* DataFrames
-* CSV files
-* Data inspection
-* Filtering
-* Sorting
-* Grouping
-* Aggregation
-* Column creation
-* Column deletion
-* Descriptive statistics
-
-## 📊 Matplotlib
-
-* Line plots
-* Histograms
-* Multiple plots
-* Titles
-* Labels
-* Legends
-* Gridlines
-* Reference lines
-* Plot customization
-
-## 🔍 Exploratory Data Analysis
-
-* Dataset inspection
-* Data types
-* Dataset dimensions
-* Statistical summaries
-* Missing-value investigation
-* Data quality checks
-* Data distribution
+| Library | Purpose |
+| --- | --- |
+| 🔢 NumPy | Numerical computing and array manipulation |
+| 🐼 Pandas | Data analysis, cleaning, and manipulation |
+| 📊 Matplotlib | Basic data visualization |
+| 🌊 Seaborn | Statistical data visualization |
+| 📁 OS | Operating system directory and path utilities |
 
 ---
 
@@ -310,12 +177,7 @@ Check your Python version:
 
 ```bash
 python --version
-```
 
-or:
-
-```bash
-python3 --version
 ```
 
 ---
@@ -325,74 +187,15 @@ python3 --version
 Install the required libraries:
 
 ```bash
-pip install numpy pandas matplotlib
+pip install numpy pandas matplotlib seaborn
+
 ```
 
 If you are using Anaconda:
 
 ```bash
-conda install numpy pandas matplotlib
-```
+conda install numpy pandas matplotlib seaborn
 
----
-
-# ▶️ Running the Projects
-
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR-USERNAME/python-data-analysis-projects.git
-```
-
-Move into the project directory:
-
-```bash
-cd python-data-analysis-projects
-```
-
-Run any Python file:
-
-```bash
-python filename.py
-```
-
-For Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
----
-
-# 📂 Suggested Project Structure
-
-```text
-python-data-analysis-projects/
-│
-├── README.md
-├── requirements.txt
-│
-├── 01_histogram_visualization/
-│   └── histogram.py
-│
-├── 02_trigonometric_plotting/
-│   └── trigonometric.py
-│
-├── 03_numpy_fundamentals/
-│   └── numpy_fundamentals.py
-│
-├── 04_slicing_masking/
-│   └── slicing_masking.py
-│
-├── 05_pandas_dataframe/
-│   └── dataframe.py
-│
-├── 06_data_wrangling/
-│   └── data_wrangling.py
-│
-└── 07_retail_sales_eda/
-    ├── retail_sales.py
-    └── retail_store_sales.csv
 ```
 
 ---
@@ -405,80 +208,16 @@ Create a `requirements.txt` file containing:
 numpy
 pandas
 matplotlib
+seaborn
+
 ```
 
 Then install everything with:
 
 ```bash
 pip install -r requirements.txt
+
 ```
-
----
-
-# 🎯 Learning Objectives
-
-By completing these projects, you will gain practical experience with:
-
-* Python for data analysis
-* NumPy numerical computing
-* Pandas data manipulation
-* CSV dataset handling
-* Data cleaning fundamentals
-* Data aggregation
-* Exploratory Data Analysis
-* Data visualization
-* Statistical interpretation
-* Real-world data analysis workflows
-
----
-
-# 📊 Learning Roadmap
-
-```text
-Python
-  ↓
-NumPy
-  ↓
-Pandas
-  ↓
-Data Wrangling
-  ↓
-Exploratory Data Analysis
-  ↓
-Matplotlib
-  ↓
-Data Visualization
-  ↓
-Real-World Data Projects
-```
-
----
-
-# 🌟 Future Improvements
-
-Planned additions to this repository:
-
-* [ ] Seaborn visualization projects
-* [ ] Advanced Pandas projects
-* [ ] Missing-value handling
-* [ ] Advanced data cleaning
-* [ ] Correlation analysis
-* [ ] Statistical analysis
-* [ ] More real-world datasets
-* [ ] Interactive visualizations
-* [ ] Machine Learning projects
-* [ ] Complete EDA projects
-* [ ] Dashboard projects
-
----
-
-# 📚 What I Am Learning
-
-This repository represents my practical learning journey in:
-
-**Python → NumPy → Pandas → Data Wrangling → EDA → Data Visualization → Data Analytics**
-
-Each project is designed to improve my understanding through hands-on implementation.
 
 ---
 
@@ -486,12 +225,9 @@ Each project is designed to improve my understanding through hands-on implementa
 
 **Uzair Ghole**
 
-Python • Data Analysis • NumPy • Pandas • Data Visualization
+Python • Data Analysis • NumPy • Pandas • EDA • Data Visualization
 
 ---
 
-## ⭐ Support
 
-If you find this repository useful, consider giving it a ⭐ on GitHub.
-
-More Python and Data Analytics projects will be added as the learning journey continues.
+```
