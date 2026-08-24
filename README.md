@@ -53,7 +53,7 @@ Python
    └── Data Analysis
            │
            ▼
-      Machine Learning
+      Data Science
 ```
 
 ---
