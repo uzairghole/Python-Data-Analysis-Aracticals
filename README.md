@@ -60,20 +60,18 @@ Python
 
 # 📊 Skills & Progress
 
-<p align="center">
+## 📊 Skills & Progress
 
-| Skill               |           Progress          |
-| :------------------ | :-------------------------: |
-| 🐍 Python Basics    |   `████████████████████` 100% |
-| 🔢 NumPy            |  `██████████████████░░` 90% |
-| 🐼 Pandas           |  `███████████████░░░░░` 75% |
-| 🧹 Data Cleaning    |  `█████████████░░░░░░░` 65% |
-| 📊 Matplotlib       |  `████████████░░░░░░░░` 60% |
-| 🎨 Seaborn          |  `███████░░░░░░░░░░░░░` 35% |
-| 🔍 Data Analysis    |  `█████████░░░░░░░░░░░` 45% |
-| 🤖 Machine Learning |  `████░░░░░░░░░░░░░░░░` 20% |
-
-</p>
+| Skill | Progress |
+|:---|:---:|
+| 🐍 Python Basics | `████████████████████` **100%** |
+| 🔢 NumPy | `██████████████████░░` **90%** |
+| 🐼 Pandas | `███████████████░░░░░` **75%** |
+| 🧹 Data Cleaning | `█████████████░░░░░░░` **65%** |
+| 📊 Matplotlib | `████████████░░░░░░░░` **60%** |
+| 🎨 Seaborn | `███████░░░░░░░░░░░░░` **35%** |
+| 🔍 Data Analysis | `█████████░░░░░░░░░░░` **45%** |
+| 🤖 Machine Learning | `████░░░░░░░░░░░░░░░░` **20%** |
 
 > Progress represents my current learning stage, not a formal skill assessment.
 
