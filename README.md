@@ -1,4 +1,4 @@
-Bilkul. Aapke **exact 9 points** ko follow karke README ko premium, clean aur GitHub-friendly bana raha hoon. Isme unnecessary emojis/repetition kam hai, aur code examples bhi compact hain.
+
 
 # 🐍 Python Data Analysis
 
