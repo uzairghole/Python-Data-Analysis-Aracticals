@@ -1,43 +1,53 @@
-
 # 📊 Python Data Analysis & Visualization
+
+<p align="center">
+  <strong>NumPy • Pandas • Matplotlib • Data Cleaning • Data Visualization</strong>
+</p>
+
+<p align="center">
+  A practical exploration of Python tools for numerical computing, data analysis, cleaning, and visualization.
+</p>
+
+---
+
+## 🧰 Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/NumPy-Numerical_Computing-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-11557c?style=for-the-badge" alt="Matplotlib">
+</p>
+
+---
 
 ## 📌 About
 
-This project focuses on the fundamentals of **Python-based Data Analysis and Data Visualization**.
+This project focuses on the fundamentals of **Python-based data analysis and visualization**.
 
-It covers numerical operations with **NumPy**, structured data manipulation with **Pandas**, basic data cleaning, dataset inspection, and visualization using **Matplotlib**.
+It covers numerical array operations with **NumPy**, structured data manipulation with **Pandas**, basic data cleaning, dataset inspection, and visualization using **Matplotlib**.
 
 The project also includes practical analysis of a **Retail Store Sales dataset**.
 
 ---
 
-## 🛠️ Technologies Used
+## ✨ Highlights
 
-* **Python** — Programming language used for data analysis
-* **NumPy** — Numerical computing and array manipulation
-* **Pandas** — Data manipulation and analysis
-* **Matplotlib** — Data visualization
-* **CSV** — Dataset format
-
----
-
-## ✨ Project Highlights
-
-| Area                | Topics                                               |
-| ------------------- | ---------------------------------------------------- |
-| 🔢 NumPy            | Arrays, indexing, slicing, masking, reshaping        |
-| 🐼 Pandas           | DataFrames, filtering, sorting, GroupBy, aggregation |
-| 🧹 Data Cleaning    | Missing values, duplicates, column removal           |
-| 📄 Dataset Analysis | CSV loading, inspection, statistics                  |
-| 📊 Visualization    | Histogram, Sine & Cosine plots                       |
+| Area                    | Topics                                               |
+| ----------------------- | ---------------------------------------------------- |
+| 🔢 **NumPy**            | Arrays, indexing, slicing, masking, reshaping        |
+| 🐼 **Pandas**           | DataFrames, filtering, sorting, GroupBy, aggregation |
+| 🧹 **Data Cleaning**    | Missing values, duplicates, column removal           |
+| 📄 **Dataset Analysis** | CSV loading, inspection, statistics                  |
+| 📊 **Visualization**    | Histogram, Sine & Cosine line plots                  |
 
 ---
 
 ## 🔢 NumPy
 
-The NumPy section focuses on working with numerical data and arrays.
+The NumPy section focuses on working with numerical data and multidimensional arrays.
 
-### Topics Covered
+### Covered Concepts
 
 * Array creation
 * Zero and one-filled arrays
@@ -46,8 +56,7 @@ The NumPy section focuses on working with numerical data and arrays.
 * Shape and dimensions
 * Data types
 * Array reshaping
-* Indexing
-* Negative indexing
+* Indexing and negative indexing
 * Slicing
 * Two-dimensional arrays
 * Row and column selection
@@ -55,15 +64,15 @@ The NumPy section focuses on working with numerical data and arrays.
 * Conditional filtering
 * Fancy indexing
 
-**Focus:** Understanding how numerical data can be efficiently stored, accessed, and manipulated.
+> **Focus:** Understanding how numerical data can be efficiently stored, accessed, and manipulated.
 
 ---
 
 ## 🐼 Pandas
 
-The Pandas section focuses on working with structured and tabular data.
+Pandas is used to work with structured and tabular data.
 
-### Topics Covered
+### Covered Concepts
 
 * DataFrame creation
 * Pandas Series
@@ -79,7 +88,7 @@ The Pandas section focuses on working with structured and tabular data.
 * Dropping columns
 * Renaming columns
 
-**Focus:** Understanding how datasets can be explored, manipulated, and analyzed.
+> **Focus:** Understanding how structured datasets can be explored, manipulated, and analyzed.
 
 ---
 
@@ -100,7 +109,7 @@ A **Retail Store Sales CSV dataset** is used for practical data analysis.
 * Checking duplicate records
 * Removing unnecessary columns
 
-**Focus:** Understanding and preparing a real-world dataset for analysis.
+> **Focus:** Preparing and understanding a real-world dataset before performing deeper analysis.
 
 ---
 
@@ -110,7 +119,7 @@ Basic data-cleaning techniques are included to improve dataset quality.
 
 ### Cleaning Process
 
-**Inspect → Identify Issues → Clean → Prepare for Analysis**
+**Inspect → Identify Issues → Remove Unnecessary Data → Prepare for Analysis**
 
 The project covers:
 
@@ -157,13 +166,25 @@ It includes:
 
 ## 🔄 Data Analysis Workflow
 
-**Load → Inspect → Clean → Analyze → Visualize**
+```text
+Load
+  ↓
+Inspect
+  ↓
+Clean
+  ↓
+Analyze
+  ↓
+Visualize
+```
 
-This represents the basic workflow used when working with a dataset.
+This represents the basic workflow followed when working with a dataset.
 
 ---
 
 ## 🎯 Key Concepts
+
+Through this project, the following concepts are covered:
 
 * Numerical computing
 * Array manipulation
@@ -193,6 +214,8 @@ This represents the basic workflow used when working with a dataset.
 
 ## 👨‍💻 Author
 
-**Uzair Ghole**
+### Uzair Ghole
 
 **Python • NumPy • Pandas • Matplotlib • Data Analysis**
+
+---
