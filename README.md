@@ -378,7 +378,7 @@ python-data-analysis/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/python-data-analysis.git
+git clone github.com/uzairghole
 ```
 
 Move into the project folder:
@@ -550,10 +550,12 @@ Through this project, I practiced how to:
 
 ---
 
-# 👨‍💻 Author
+👨‍💻 Author
 
-**Uzair Ghole**
+Uzair Ghole
 
 Python Learner • Data Analysis Enthusiast
+
+🔗 GitHub: "github.com/uzairghole" (https://github.com/uzairghole)
 
 ⭐ If you find this repository useful, consider giving it a star!
