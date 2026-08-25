@@ -1,8 +1,4 @@
-
-
 # 🐍 Python Data Analysis
-
-
 
 <h1 align="center">Python Data Analysis</h1>
 
@@ -11,8 +7,8 @@
 </p>
 
 <p align="center">
-  Learning data analysis through practical Python programs,
-  visualization, data cleaning, and real-world datasets.
+  A practical Python project covering array operations, data analysis,
+  data cleaning, and data visualization.
 </p>
 
 <p align="center">
@@ -21,564 +17,350 @@
 ![NumPy](https://img.shields.io/badge/NumPy-2.x-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-11557C?style=for-the-badge\&logo=python\&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.13+-4C72B0?style=for-the-badge\&logo=python\&logoColor=white)
-
-</p>
-
-<p align="center">
-
-![Level](https://img.shields.io/badge/Level-Beginner%20→%20Intermediate-00C853?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Currently%20Learning-FF9800?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Data%20Analysis-6C63FF?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13+-4C72B0?style=for-the-badge)
 
 </p>
 
 ---
 
-## 👋 About
+# 📌 About
 
-This repository documents my journey of learning **Python for Data Analysis**.
+This repository contains my practical learning and implementation of **Python Data Analysis**.
 
-The focus is on building practical skills by working with arrays, datasets, statistics, visualization, and data-cleaning techniques.
+The project combines multiple concepts into one complete Python program, including:
+
+* 🔢 NumPy
+* 🐼 Pandas
+* 🧹 Data Cleaning
+* 📊 Data Analysis
+* 📈 Data Visualization
+* 📂 CSV Dataset Handling
+
+The main goal is to move from individual Python concepts to a practical **data analysis workflow**.
+
+---
+
+# 🧠 Learning Journey
 
 ```text
 Python
    │
-   ├── NumPy
+   ▼
+NumPy
    │
-   ├── Pandas
+   ▼
+Pandas
    │
-   ├── Matplotlib / Seaborn
+   ▼
+Data Cleaning
    │
-   └── Data Analysis
-           │
-           ▼
-      Data Science
+   ▼
+Data Visualization
+   │
+   ▼
+Data Analysis
+   │
+   ▼
+Exploratory Data Analysis
+   │
+   ▼
+Machine Learning
+   │
+   ▼
+Data Science
 ```
 
 ---
 
-# 📊 Skills & Progress
+# 🚀 Features
 
+## 🔢 NumPy Practice
 
+* Array creation
+* Array properties
+* Reshaping
+* Indexing
+* Slicing
+* 2D array operations
+* Boolean masking
+* Fancy indexing
 
-| Skill | Progress |
-|:---|:---:|
-| 🐍 Python Basics | `████████████████████` **100%** |
-| 🔢 NumPy | `██████████████████░░` **90%** |
-| 🐼 Pandas | `███████████████░░░░░` **75%** |
-| 🧹 Data Cleaning | `█████████████░░░░░░░` **65%** |
-| 📊 Matplotlib | `████████████░░░░░░░░` **60%** |
-| 🎨 Seaborn | `███████░░░░░░░░░░░░░` **35%** |
-| 🔍 Data Analysis | `█████████░░░░░░░░░░░` **45%** |
-| 🤖 Machine Learning | `████░░░░░░░░░░░░░░░░` **20%** |
+## 🐼 Pandas Practice
 
-> Progress represents my current learning stage, not a formal skill assessment.
+* DataFrame creation
+* Filtering
+* Sorting
+* Creating new columns
+* GroupBy
+* Aggregation
+* Renaming columns
 
----
+## 🧹 Data Cleaning
 
-# 🧭 Learning Roadmap
+* CSV file loading
+* Column name standardization
+* Dataset inspection
+* Statistical summary
+* Missing-value detection
+* Duplicate detection
+* Column removal
+* Conditional data cleaning
 
-```text
-                 ┌───────────────┐
-                 │    Python     │
-                 └───────┬───────┘
-                         │
-                         ▼
-                 ┌───────────────┐
-                 │     NumPy     │
-                 └───────┬───────┘
-                         │
-                         ▼
-                 ┌───────────────┐
-                 │    Pandas     │
-                 └───────┬───────┘
-                         │
-                         ▼
-              ┌──────────────────────┐
-              │    Data Cleaning     │
-              └──────────┬───────────┘
-                         │
-                         ▼
-             ┌────────────────────────┐
-             │ Matplotlib / Seaborn   │
-             └────────────┬───────────┘
-                          │
-                          ▼
-                ┌─────────────────┐
-                │ Data Analysis   │
-                └────────┬────────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ Machine Learning│
-                └─────────────────┘
-```
+## 📊 Visualization
 
-### ✅ Completed
-
-* [x] NumPy fundamentals
-* [x] Array creation
-* [x] Array properties
-* [x] Indexing & slicing
-* [x] Boolean masking
-* [x] Fancy indexing
-* [x] Reshaping
-* [x] Pandas DataFrames
-* [x] Pandas Series
-* [x] Filtering & sorting
-* [x] GroupBy & aggregation
-* [x] CSV loading
-* [x] Basic data inspection
-* [x] Missing-value detection
-* [x] Duplicate detection
-* [x] Basic data cleaning
-* [x] Histogram
-* [x] Line plots
-* [x] Trigonometric visualization
-
-### 🔜 Next
-
-* [ ] `loc` and `iloc`
-* [ ] Advanced Pandas
-* [ ] Missing-value handling
-* [ ] Data type conversion
-* [ ] Merge & Join
-* [ ] Pivot Tables
-* [ ] Advanced Seaborn
-* [ ] Exploratory Data Analysis
-* [ ] Statistical Analysis
-* [ ] Machine Learning
+* Histogram
+* Mean line
+* Sine graph
+* Cosine graph
+* Grid and legend
+* Chart customization
 
 ---
 
-# 📚 Topics
-
-<details>
-<summary><b>🔢 NumPy — Array Fundamentals</b></summary>
-
-### Array Creation
+# 💻 Complete Program
 
 ```python
+import os
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+
+# ==========================================
+# 1. NUMPY BASE PRACTICE
+# ==========================================
+
+# Creating arrays
 a = np.array([1, 2, 3, 4, 5])
 b = np.zeros((3, 3))
 c = np.ones((2, 4))
 d = np.arange(0, 10, 2)
 e = np.linspace(0, 1, 5)
-```
 
-### Array Properties
+# Array properties
+print("Array A properties:", a.shape, a.dtype, a.ndim)
 
-```python
-print(a.shape)
-print(a.dtype)
-print(a.ndim)
-print(a.size)
-```
-
-### Reshaping
-
-```python
+# Reshaping
 matrix = np.arange(12).reshape(3, 4)
+print("\nReshaped Matrix:\n", matrix)
 
-print(matrix)
-```
-
-</details>
-
----
-
-<details>
-<summary><b>🎯 NumPy — Indexing & Slicing</b></summary>
-
-```python
+# Indexing & Slicing
 arr = np.array([10, 20, 30, 40, 50])
 
-print(arr[0])       # 10
-print(arr[-1])      # 50
-print(arr[1:4])     # [20 30 40]
-```
+print("\nFirst & Last:", arr[0], arr[-1])
+print("Slice [1:4]:", arr[1:4])
 
-### 2D Indexing
-
-```python
-matrix = np.array([
+# 2D indexing
+m = np.array([
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
 ])
 
-print(matrix[1, 2])
-print(matrix[:, 1])
-print(matrix[0:2, :])
-```
+print("\nElement at (1,2):", m[1, 2])
+print("Second column:", m[:, 1])
+print("First two rows:\n", m[0:2, :])
 
-</details>
-
----
-
-<details>
-<summary><b>🔍 NumPy — Boolean & Fancy Indexing</b></summary>
-
-### Boolean Masking
-
-```python
+# Boolean masking & Fancy indexing
 scores = np.array([85, 42, 91, 67, 73])
-
 passed = scores[scores >= 70]
 
-print(passed)
-```
+print("\nPassed Scores:", passed)
+print("Fancy Indexing:", arr[[0, 3, 4]])
 
-Output:
 
-```text
-[85 91 73]
-```
+# ==========================================
+# 2. PANDAS BASE PRACTICE
+# ==========================================
 
-### Fancy Indexing
+# Create DataFrame
+df_demo = pd.DataFrame({
+    "Name": ["Alice", "Bob", "Charlie", "Diana"],
+    "Dept": ["IT", "HR", "IT", "HR"],
+    "Salary": [70000, 65000, 80000, 72000]
+})
 
-```python
-arr = np.array([10, 20, 30, 40, 50])
+# Filtering
+it_team = df_demo[df_demo["Dept"] == "IT"]
+high_pay = df_demo[df_demo["Salary"] > 70000]
 
-indexes = [0, 3, 4]
+# Sorting
+sorted_df = df_demo.sort_values(
+    "Salary",
+    ascending=False
+)
 
-print(arr[indexes])
-```
+# New Column
+df_demo["Bonus"] = df_demo["Salary"] * 0.1
 
-</details>
+# Aggregation
+dept_avg = df_demo.groupby("Dept")["Salary"].mean()
 
----
+print("\n--- Department Average Salary ---")
+print(dept_avg)
 
-<details>
-<summary><b>📊 Matplotlib — Histogram</b></summary>
+# Clean DataFrame columns
+df_demo = (
+    df_demo
+    .drop(columns=["Bonus"])
+    .rename(columns={"Dept": "Department"})
+)
 
-A histogram helps visualize the distribution of numerical data.
 
-```python
-import numpy as np
-import matplotlib.pyplot as plt
+# ==========================================
+# 3. DATA CLEANING & ANALYSIS WORKFLOW
+# ==========================================
+
+file_path = "retail_store_sales.csv"
+
+if os.path.exists(file_path):
+
+    # Load dataset
+    df = pd.read_csv(file_path)
+
+    # Standardize column headers
+    df.columns = (
+        df.columns
+        .str.strip()
+        .str.lower()
+        .str.replace(" ", "_")
+    )
+
+    print("\n--- Dataset Summary ---")
+    df.info()
+
+    print("\n--- Statistical Overview ---")
+    print(df.describe())
+
+    # Missing values
+    missing_pct = df.isnull().mean() * 100
+
+    print("\n--- Missing Value Percentage ---")
+    print(missing_pct)
+
+    # Duplicate rows
+    duplicates = df[df.duplicated()]
+
+    print(f"\nDuplicate Rows Found: {len(duplicates)}")
+
+    # Remove unnecessary column
+    df_cleaned = df.drop(
+        columns=["transaction_id"],
+        errors="ignore"
+    )
+
+    # Fill missing item conditionally
+    condition = (
+        (df_cleaned["item"].isna()) &
+        (df_cleaned["price_per_unit"] == 33.5) &
+        (df_cleaned["category"] == "Furniture")
+    )
+
+    df_cleaned.loc[
+        condition,
+        "item"
+    ] = "Item_20_FUR"
+
+    # View updated records
+    target_items = df_cleaned[
+        (df_cleaned["price_per_unit"] == 33.5) &
+        (df_cleaned["category"] == "Furniture")
+    ]
+
+    print("\n--- Updated Targeted Records ---")
+    print(target_items)
+
+else:
+    print(
+        f"\nNote: '{file_path}' not found. "
+        "Skipping file read steps."
+    )
+
+
+# ==========================================
+# 4. VISUALIZATIONS
+# ==========================================
+
+# Chart 1: Exam Score Distribution
+plt.figure(figsize=(8, 4))
 
 data = np.random.normal(70, 10, 1000)
 
 plt.hist(
     data,
     bins=17,
-    edgecolor="gray",
-    alpha=0.7
+    edgecolor="#4A5568",
+    alpha=0.7,
+    color="#4FD1C5"
 )
 
 plt.axvline(
     data.mean(),
-    color="gray",
+    color="#E53E3E",
     linestyle="--",
-    label="Mean"
+    linewidth=2,
+    label=f"Mean: {data.mean():.2f}"
 )
 
-plt.title("Exam Score Distribution")
+plt.title(
+    "Exam Score Distribution",
+    fontsize=12,
+    pad=10
+)
+
 plt.xlabel("Score")
 plt.ylabel("Frequency")
 plt.legend()
 
+plt.tight_layout()
 plt.show()
-```
 
-</details>
 
----
-
-<details>
-<summary><b>📐 Matplotlib — Trigonometric Functions</b></summary>
-
-```python
-import numpy as np
-import matplotlib.pyplot as plt
+# Chart 2: Trigonometric Functions
+plt.figure(figsize=(8, 4))
 
 x = np.linspace(0, 10, 100)
 
-plt.plot(x, np.sin(x), label="sin(x)")
-plt.plot(x, np.cos(x), label="cos(x)")
+plt.plot(
+    x,
+    np.sin(x),
+    label="sin(x)",
+    linewidth=2
+)
 
-plt.title("Trigonometric Functions")
+plt.plot(
+    x,
+    np.cos(x),
+    label="cos(x)",
+    linewidth=2,
+    linestyle="--"
+)
+
+plt.title(
+    "Trigonometric Functions",
+    fontsize=12,
+    pad=10
+)
+
 plt.xlabel("x")
 plt.ylabel("y")
 
-plt.grid(True)
+plt.grid(
+    True,
+    linestyle=":",
+    alpha=0.6
+)
+
 plt.legend()
+
+plt.tight_layout()
 plt.show()
 ```
 
-This demonstrates how mathematical functions can be visualized using Python.
-
-</details>
-
 ---
 
-<details>
-<summary><b>🐼 Pandas — DataFrame & Series</b></summary>
-
-### DataFrame
-
-```python
-import pandas as pd
-
-df = pd.DataFrame({
-    "Name": ["Alice", "Bob", "Charlie"],
-    "Age": [25, 30, 35],
-    "Score": [88.5, 92.3, 79.1]
-})
-
-print(df)
-```
-
-### Series
-
-```python
-ages = df["Age"]
-
-print(type(ages))
-```
-
-### Inspection
-
-```python
-print(df.shape)
-print(df.dtypes)
-print(df.describe())
-```
-
-</details>
-
----
-
-<details>
-<summary><b>🔎 Pandas — Filtering & Sorting</b></summary>
-
-```python
-df = pd.DataFrame({
-    "Name": ["Alice", "Bob", "Charlie", "Diana"],
-    "Dept": ["IT", "HR", "IT", "HR"],
-    "Salary": [70000, 65000, 80000, 72000]
-})
-```
-
-### Filtering
-
-```python
-it_team = df[df["Dept"] == "IT"]
-
-high_pay = df[df["Salary"] > 70000]
-```
-
-### Sorting
-
-```python
-sorted_df = df.sort_values(
-    "Salary",
-    ascending=False
-)
-```
-
-### New Column
-
-```python
-df["Bonus"] = df["Salary"] * 0.10
-```
-
-</details>
-
----
-
-<details>
-<summary><b>📈 Pandas — GroupBy & Aggregation</b></summary>
-
-```python
-dept_avg = (
-    df.groupby("Dept")["Salary"]
-      .mean()
-)
-
-print(dept_avg)
-```
-
-`groupby()` allows data to be divided into groups and analyzed independently.
-
-</details>
-
----
-
-<details>
-<summary><b>📂 Pandas — Loading CSV Data</b></summary>
-
-```python
-import pandas as pd
-
-df = pd.read_csv(
-    "retail_store_sales.csv"
-)
-
-print(df)
-```
-
-### Initial Inspection
-
-```python
-df.info()
-
-print(df.describe())
-```
-
-</details>
-
----
-
-<details>
-<summary><b>🧹 Data Cleaning</b></summary>
-
-### Missing Values
-
-```python
-missing = df.isnull().mean() * 100
-
-print(missing)
-```
-
-### Duplicate Rows
-
-```python
-duplicates = df[df.duplicated()]
-
-print(duplicates)
-```
-
-### Create a Working Copy
-
-```python
-df_clean = df.copy()
-```
-
-### Remove Unnecessary Column
-
-```python
-df_clean = df_clean.drop(
-    columns=["Transaction ID"]
-)
-```
-
-</details>
-
----
-
-# 📈 Project Highlights
-
-## 🛒 Retail Store Sales Analysis
-
-**Dataset:** `retail_store_sales.csv`
-
-The project focuses on understanding and preparing a real-world style retail dataset.
-
-### Workflow
-
-```text
-CSV Dataset
-     │
-     ▼
-Load Data
-     │
-     ▼
-Inspect Dataset
-     │
-     ├── Shape
-     ├── Data Types
-     └── Statistics
-     │
-     ▼
-Check Missing Values
-     │
-     ▼
-Check Duplicates
-     │
-     ▼
-Clean Data
-     │
-     ▼
-Ready for Analysis
-```
-
-### Concepts Practiced
-
-* Dataset loading
-* Data inspection
-* Statistical summary
-* Missing-value analysis
-* Duplicate detection
-* Column removal
-* Data preparation
-
----
-
-# 🧹 Data Analysis Workflow
-
-My general approach to a dataset:
-
-```text
-        📂 DATA
-          │
-          ▼
-    ┌───────────────┐
-    │ Load Dataset  │
-    └───────┬───────┘
-            ▼
-    ┌───────────────┐
-    │ Inspect Data  │
-    └───────┬───────┘
-            ▼
-    ┌───────────────┐
-    │ Clean Data    │
-    └───────┬───────┘
-            ▼
-    ┌───────────────┐
-    │ Explore Data  │
-    └───────┬───────┘
-            ▼
-    ┌───────────────┐
-    │ Visualize     │
-    └───────┬───────┘
-            ▼
-    ┌───────────────┐
-    │ Find Insights │
-    └───────┬───────┘
-            ▼
-         💡 RESULT
-```
-
----
-
-# 🧠 Key Learnings
-
-This repository helped me understand how to move from **raw Python code to practical data analysis**.
-
-### NumPy
-
-`Arrays → Indexing → Slicing → Masking → Reshaping`
-
-### Pandas
-
-`DataFrame → Filtering → Sorting → GroupBy → Analysis`
-
-### Visualization
-
-`Data → Plot → Understand → Communicate`
-
-### Data Cleaning
-
-`Raw Data → Inspect → Clean → Prepare`
-
----
-
-# 📁 Project Structure
+# 📂 Project Structure
 
 ```text
 python-data-analysis/
@@ -589,15 +371,33 @@ python-data-analysis/
 └── 📦 requirements.txt
 ```
 
-### `data_analysis.py`
+---
 
-Contains NumPy, Pandas, Matplotlib and Seaborn practice programs.
+# ⚙️ Installation
 
-### `retail_store_sales.csv`
+Clone the repository:
 
-Dataset used for data cleaning and analysis.
+```bash
+git clone https://github.com/YOUR-USERNAME/python-data-analysis.git
+```
 
-### `requirements.txt`
+Move into the project folder:
+
+```bash
+cd python-data-analysis
+```
+
+Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# 📦 Requirements
+
+Create a `requirements.txt` file:
 
 ```text
 numpy
@@ -608,52 +408,131 @@ seaborn
 
 ---
 
-# 🚀 Future Plans
+# ▶️ Run the Project
 
-* 📊 Build complete EDA projects
-* 🧹 Practice advanced data cleaning
-* 📈 Create better visualizations
-* 🐼 Learn advanced Pandas
-* 🎨 Explore Seaborn deeply
-* 📂 Work with larger datasets
-* 📊 Build data-analysis dashboards
-* 🤖 Start Machine Learning
-* 🚀 Build end-to-end projects
+```bash
+python data_analysis.py
+```
 
 ---
 
-# 🏁 Learning Journey
+# 📊 Data Analysis Workflow
 
 ```text
-🐍 Python
-   │
-   ▼
-🔢 NumPy
-   │
-   ▼
-🐼 Pandas
-   │
-   ▼
-🧹 Data Cleaning
-   │
-   ▼
-📊 Visualization
-   │
-   ▼
-🔍 Exploratory Data Analysis
-   │
-   ▼
-🤖 Machine Learning
-   │
-   ▼
-🧠 Data Science
+        📂 DATASET
+            │
+            ▼
+      ┌──────────────┐
+      │  Load Data   │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │   Inspect    │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │ Clean Data   │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │   Analyze    │
+      └──────┬───────┘
+             │
+             ▼
+      ┌──────────────┐
+      │  Visualize   │
+      └──────┬───────┘
+             │
+             ▼
+          💡 INSIGHTS
 ```
+
+---
+
+# 🧠 Concepts Covered
+
+```text
+NUMPY
+│
+├── Array Creation
+├── Array Properties
+├── Reshaping
+├── Indexing
+├── Slicing
+├── Boolean Masking
+└── Fancy Indexing
+
+
+PANDAS
+│
+├── DataFrames
+├── Filtering
+├── Sorting
+├── New Columns
+├── GroupBy
+└── Aggregation
+
+
+DATA CLEANING
+│
+├── CSV Loading
+├── Column Standardization
+├── Missing Values
+├── Duplicate Detection
+├── Column Removal
+└── Conditional Cleaning
+
+
+VISUALIZATION
+│
+├── Histogram
+├── Mean Line
+├── Line Plot
+├── Sine Function
+└── Cosine Function
+```
+
+---
+
+# 🎯 Learning Objectives
+
+Through this project, I practiced how to:
+
+* Work with NumPy arrays
+* Manipulate data using Pandas
+* Load CSV datasets
+* Inspect dataset structure
+* Identify missing values
+* Detect duplicate records
+* Clean unnecessary data
+* Perform conditional data updates
+* Create statistical visualizations
+* Visualize mathematical functions
+* Build a basic data analysis workflow
+
+---
+
+# 🚀 Future Plans
+
+* [ ] Advanced Pandas
+* [ ] Missing-value handling techniques
+* [ ] Data type conversion
+* [ ] Merge and Join
+* [ ] Pivot Tables
+* [ ] Exploratory Data Analysis
+* [ ] Advanced Seaborn
+* [ ] Statistical Analysis
+* [ ] Data Analysis Dashboards
+* [ ] Machine Learning Projects
 
 ---
 
 # ⭐ Repository Goal
 
-> **Learn the fundamentals → practice with code → work with real data → analyze → visualize → build projects.**
+> **Learn → Practice → Analyze → Visualize → Build Projects**
 
 ---
 
@@ -665,6 +544,16 @@ seaborn
 
 <p align="center">
 
-**🐍 Python → 🔢 NumPy → 🐼 Pandas → 📊 Visualization → 🔍 Data Analysis → 🤖 ML**
+**🐍 Python → 🔢 NumPy → 🐼 Pandas → 🧹 Data Cleaning → 📊 Visualization → 🔍 Data Analysis → 🤖 Machine Learning**
 
 </p>
+
+---
+
+# 👨‍💻 Author
+
+**Uzair Ghole**
+
+Python Learner • Data Analysis Enthusiast
+
+⭐ If you find this repository useful, consider giving it a star!
