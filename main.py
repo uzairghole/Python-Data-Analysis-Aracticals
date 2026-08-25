@@ -146,3 +146,23 @@ df1 = df
 df1.head(15)
 df2 = df1.drop(columns=["Transaction ID"])
 df2.head(15)
+
+
+# Standardizing Column 
+df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
+df.head()
+
+# Filling Dissing Data 
+df2.loc[
+    (df2["Item"].isna()) &
+    (df2["Price Per Unit"] == 33.5) &
+    (df2["Category"] == "Furniture"),
+    "Item"
+] = "Item_20_FUR"
+
+print(
+    df2[
+        (df2["Price Per Unit"] == 33.5) &
+        (df2["Category"] == "Furniture")
+    ]
+)
